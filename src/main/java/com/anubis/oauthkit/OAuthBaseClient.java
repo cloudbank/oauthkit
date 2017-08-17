@@ -15,6 +15,8 @@ import java.util.HashMap;
 
 import se.akerfeldt.okhttp.signpost.OkHttpOAuthConsumer;
 
+import static com.sun.xml.internal.ws.policy.sourcemodel.wspolicy.XmlToken.Uri;
+
 public class OAuthBaseClient {
     protected Context context;
     protected OAuthSignPostOKHttpClient client;
@@ -22,7 +24,7 @@ public class OAuthBaseClient {
     protected SharedPreferences.Editor editor;
     protected OAuthBaseClient.OAuthAccessHandler accessHandler;
     protected int requestIntentFlags = -1;
-    protected static HashMap<Class<? extends OAuthBaseClient>, OAuthBaseClient> instances = new HashMap();
+    protected static HashMap<Class<? extends OAuthBaseClient>, OAuthBaseClient> instances = new HashMap<>();
     private static OAuthBaseClient instance;
     private static final String baseUrl = BuildConfig.baseUrl;
     private static String callbackUrl = BuildConfig.callbackUrl;
@@ -99,11 +101,11 @@ public class OAuthBaseClient {
     public void authorize(Uri uri) {
         if (this.checkAccessToken() == null && uri != null) {
             String uriServiceCallback = uri.getScheme() + "://" + uri.getHost();
-            if (uriServiceCallback.equals(this.callbackUrl)) {
+            if (uriServiceCallback.equals(callbackUrl)) {
                 this.client.fetchAccessToken(uri);
             }
         } else if (this.checkAccessToken() != null) {
-            OAuthBaseClient.this.accessHandler.onLoginSuccess(this.getClient().getConsumer(), this.baseUrl);
+            OAuthBaseClient.this.accessHandler.onLoginSuccess(this.getClient().getConsumer(), baseUrl);
         }
 
     }

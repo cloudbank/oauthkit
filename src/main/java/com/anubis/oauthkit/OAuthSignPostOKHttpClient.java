@@ -51,7 +51,7 @@ public class OAuthSignPostOKHttpClient {    //
     }
 
     String getCallback() {
-        return this.callbackUrl;
+        return callbackUrl;
     }
 
     public void fetchRequestToken() {
