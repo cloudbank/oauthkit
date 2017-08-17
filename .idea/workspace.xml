@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a9d606-d5f4-42ca-9e7f-a0d3505ca574" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauthkit.iml" afterPath="$PROJECT_DIR$/oauthkit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anubis/oauthkit/OAuthBaseClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/anubis/oauthkit/OAuthBaseClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anubis/oauthkit/OAuthSignPostOKHttpClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/anubis/oauthkit/OAuthSignPostOKHttpClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oauthkit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +61,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OAuthBaseClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OAuthBaseClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anubis/oauthkit/OAuthBaseClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="795">
@@ -83,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -671,14 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anubis/oauthkit/OAuthBaseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="66" column="107" selection-start-line="66" selection-start-column="107" selection-end-line="66" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -707,6 +697,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anubis/oauthkit/OAuthBaseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="66" column="107" selection-start-line="66" selection-start-column="107" selection-end-line="66" selection-end-column="107" />
           <folding />
         </state>
       </provider>
